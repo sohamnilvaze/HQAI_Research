@@ -7,10 +7,13 @@ This repository presents two novel quantum-inspired machine learning models for 
 ## Motivation
 
 Classical data, such as images, can be viewed as matrices. By interpreting these matrices as Hamiltonians—the operators that describe the total energy of a quantum system—we can leverage powerful concepts from quantum mechanics to develop unique and efficient learning algorithms. This work explores this concept, aiming to create more compact data representations and robust classifiers.
+
 ## Implementation Details
 
 The code is written using Pytorch framework.
 
-* adiabatic_1_2.ipynb, plots.ipynb, qho-implememtation.ipynb : Exploratory non-final notebooks, that document the developement and experimentation process for both the approaches.
+* adiabatic_implementation.ipynb : This contains the implementation code for Adiabatic Theorem approach
 
-* Final notebooks :  These folder contains the finalised versions of all the notebooks.
+* First Quantization using QAHO approach : This contains the implementation code for Quantum Anharmonic oscillaor approach.
+
+* plots.ipynb : This contains the code for visualizing the Hamiltonans.
